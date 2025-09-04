@@ -287,8 +287,7 @@ add_ptp_executable(
 # ------------------------------------------------------------
 # Installation
 # ------------------------------------------------------------
-include(GNUInstallDirs)
-install(TARGETS ${ALL_PROGRAMS} DESTINATION ${CMAKE_INSTALL_SBINDIR})
+install(TARGETS ptp4l DESTINATION ${CMAKE_INSTALL_BINDIR})
 
 # ------------------------------------------------------------
 # Status output (optional)
